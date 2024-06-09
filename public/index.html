@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кондитерская</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Логотип</div>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li class="catalog">
+                    <a href="#catalog">Каталог</a>
+                    <ul class="dropdown">
+                        <li><a href="#inventory">Инвентарь</a></li>
+                        <li><a href="#ingredients">Ингредиенты</a></li>
+                        <li><a href="#decorations">Украшения</a></li>
+                        <li><a href="#packaging">Упаковки</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.html">Авторизация</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#cart">Тележка</a>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Поиск...">
+        </div>
+    </header>
+
+    <section class="banner">
+        <h1>Нежные ингредиенты к вашей полке</h1>
+        <p>Доставка кондитерских ингредиентов, украшений и инвентаря в ваш город!</p>
+    </section>
+
+    <section class="products">
+        <h2>Наши товары</h2>
+        <div class="product-list">
+            <!-- Продукты будут добавлены динамически через JS -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Кондитерская Ваниль. Все права защищены.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

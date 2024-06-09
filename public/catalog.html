@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог | Кондитерская Ваниль</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Логотип</div>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">О нас</a></li>
+                <li><a href="index.html#contacts">Контакты</a></li>
+                <li class="catalog">
+                    <a href="#catalog">Каталог</a>
+                    <!-- Подменю, которое будет появляться при наведении -->
+                    <ul class="dropdown">
+                        <li><a href="#inventory">Инвентарь</a></li>
+                        <li><a href="#ingredients">Ингредиенты</a></li>
+                        <li><a href="#decorations">Украшения</a></li>
+                        <li><a href="#packaging">Упаковки</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#auth">Авторизация</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="index.html#cart">Тележка</a>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Поиск...">
+        </div>
+    </header>
+
+    <main>
+        <div class="catalog-navigation">
+            <a href="index.html">← Все товары</a>
+            <h1>Название категории</h1>
+            <span>28 товаров</span>
+        </div>
+
+        <section class="product-catalog">
+            <div class="product-grid">
+                <!-- Продукты будут добавлены динамически через JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Кондитерская Ваниль. Все права защищены.</p>
+    </footer>
+</body>
+</html>
